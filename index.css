@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background: #1B244A;
+  box-sizing: border-box;
+  margin:0;
+  padding: 1px;
+}
+.block{
+  float:left;
+  width: 50%;
+}
+.title{
+  margin: 60px auto 21px auto;
+  text-align: center;
+  font-family: 'Verdana';
+  font-weight: 700;
+  font-size: 40px;
+  color: #EEEEEE;
+}
+.score{
+  margin: 0 auto 0 auto;
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+  font-family: 'cursed_timer_ulilregular';
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 137px;
+  text-align: center;
+  color: #F94F6D;
+}
+.buttons{
+  height: 45px;
+  margin-bottom:69px;
+  text-align:center;
+  cursor: pointer;
+  margin-top: 26px;
+}
+.buttons>span{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  font-family: 'cursed_timer_ulilregular';
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #9AABD8;
+  margin-right: 4px;
+  line-height: 49px;
+}
+.timer{
+  clear: both;
+  width: 300px;
+}
+.stopRestart{
+  text-align: center;
+  font-family: 'Verdana';
+  font-weight: 500;
+  font-size: 30px;
+  color: #F94F6D;
+  border-bottom: 2px solid #F94F6D;
+  width: 86px;
+  margin: -50px auto 0 auto;
+  cursor: pointer;
+}
+#countdown{
+  padding-bottom: 45px;
+}

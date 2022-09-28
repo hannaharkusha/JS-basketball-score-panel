@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basketball Score Panel</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="block">
+        <div class="title">HOME</div>
+        <div class="score" id="homescore">0</div>
+        <div class="buttons">
+            <span onclick="plusOneHome()">+1</span><span onclick="plusTwoHome()">+2</span><span onclick="plusThreeHome()">+3</span>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="title">GUEST</div>
+        <div class="score" id="guestscore">0</div>
+        <div class="buttons">
+          <span onclick="plusOneGuest()" id="plusOneGuest">+1</span><span onclick="plusTwoGuest()" id="plusTwoGuest">+2</span><span onclick="plusThreeGuest()" id="plusThreeGuest">+3</span>
+        </div>
+      </div>
+
+      <div class="title">TIME</div>
+      <div class="score timer" id="countdown"></div>
+      <div class="stopRestart" id="stopRestart">STOP</div>
+
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
